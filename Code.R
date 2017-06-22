@@ -10,3 +10,7 @@ install.packages("wrassp")
 library(wrassp)
 
 
+function extract.features(filename) {
+  raw_file <- read.AsspDataObj(filename)
+  
+}
